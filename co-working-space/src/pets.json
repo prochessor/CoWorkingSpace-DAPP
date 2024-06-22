@@ -1,0 +1,32 @@
+[
+  {
+    "id": 0,
+    "name": "Commence",
+    "picture": "images/1.png",
+    "location": "Gulberg Lahore"
+  },
+  {
+    "id": 1,
+    "name": "XeoSpaces",
+    "picture": "images/2.png",
+    "location": "Liberty Lahore"
+  },
+  {
+    "id": 2,
+    "name": "Ventures",
+    "picture": "images/3.png",
+    "location": "Faisal Town Lahore"
+  },
+  {
+    "id": 3,
+    "name": "Regus",
+    "picture": "images/4.png",
+    "location": "DHA Lahore"
+  },
+  {
+    "id": 4,
+    "name": "Colabs",
+    "picture": "images/1.png",
+    "location": "Johar Town Lahore"
+  }
+]

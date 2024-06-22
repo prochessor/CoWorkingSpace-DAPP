@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: rgba(135, 207, 235, 0.156);
+    color: black !important;
+}
+
+#coworkingSpaces,
+#search-results {
+    padding: 30px;
+}
+
+.searchForm {
+    padding: 30px;
+}
+
+.add-form {
+    display: flex;
+
+}
+
+.my-section {
+    padding: 50px 200px;
+}
+
+
+.home {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    gap: 5px;
+    width: 400px;
+    border: 1px solid grey;
+    text-wrap: wrap;
+    box-sizing: border-box;
+    box-shadow: 5px 3px 3px 3px;
+    border-radius: 5px;
+    height: fit-content;
+    background: white;
+}
+
+.card>img {
+    width: 100%;
+}
+
+#coworkingSpaces,
+#search-results {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+
+}
+
+.Owner {
+    text-wrap: wrap;
+    word-break: break-all;
+}
+
+.btn-info {
+    margin-left: 5px;
+}
+
+.btn {
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: teal;
+    color: white;
+    margin: 5px;
+    box-shadow: 1px 1px 1px 1px gray;
+}
